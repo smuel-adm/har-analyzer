@@ -42,6 +42,30 @@ uv run har_report.py <file.har>
 ![Example Output](res/example_output.png)
 
 
+## TL;DR
+
+### How to create a .har file
+
+```shell
+Open Edge Browser in Incognito Mode
+F12
+→ Network
+→ Preserve Log
+→ Disable cache
+→ Add URL in Address Bar
+→ Hit Enter
+→ wait until full load
+→ Export HAR
+```
+
+
+![](res/Edge_private_window_001.png)
+![](res/Edge_private_window_002.png)
+![](res/Edge_private_window_003.png)
+![](res/Edge_private_window_004.png)
+
+
+
 [git]: https://git-scm.com/
 [uv]: https://astral.sh/uv/
 [phyton]: https://www.python.org/
