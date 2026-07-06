@@ -46,6 +46,8 @@ uv run har_report.py <file.har>
 
 ### How to create a .har file
 
+It is important to close all Edge browsers before creating a .har file.
+
 ```shell
 Open Edge Browser in Incognito Mode
 F12
@@ -58,12 +60,21 @@ F12
 → Export HAR
 ```
 
+**Open Edge Browser in Incognito Mode**
 
 ![](res/Edge_private_window_001.png)
-![](res/Edge_private_window_002.png)
-![](res/Edge_private_window_003.png)
-![](res/Edge_private_window_004.png)
 
+**Hit F12 to open Developer Tools, select Network tab, check preserve log and disable cache checkboxes**
+
+![](res/Edge_private_window_002.png)
+
+**insert URL in Address Bar and hit Enter**
+
+![](res/Edge_private_window_003.png)
+
+**wait until full load and export HAR**
+
+![](res/Edge_private_window_004.png)
 
 
 [git]: https://git-scm.com/
